@@ -47,6 +47,7 @@ aliases: ['/web-servers/caddy/how-to-install-and-configure-caddy-on-debian-10/']
         curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-stable.list
 
 1.  Install Caddy:
+
         sudo apt update
         sudo apt install caddy
 
